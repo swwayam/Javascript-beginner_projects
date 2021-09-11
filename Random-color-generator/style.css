@@ -1,1 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Colors*/
+.blue {
+  color: rgb(58, 188, 231);
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+/*Page*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 2px 5px lightgray;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.nav__text {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-right: 1rem;
+}
+
+.content {
+  text-align: center;
+  margin-top: 25rem;
+}
+
+.content__displayText {
+}
+
+.content-display {
+  background-color: black;
+  font-size: 2.5rem;
+  border-radius: 0.5rem;
+  padding-top: 4rem;
+  height: 8rem;
+}
+
+.content__displayButton {
+  padding: 1rem 4rem;
+  margin-top: 7rem;
+}
