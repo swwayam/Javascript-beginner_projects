@@ -6,6 +6,7 @@
 body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  background-color: #ff0000;
 }
 
 :root {
@@ -36,8 +37,8 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  box-shadow: 2px 5px lightgray;
-  margin-top: 1rem;
+  box-shadow: 2px 5px rgba(10, 10, 10, 0.281);
+  padding-top: 1rem;
   padding: 2rem;
 }
 
