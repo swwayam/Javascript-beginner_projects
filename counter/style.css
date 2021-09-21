@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  font-size: 10px;
+}
+
+.main-page {
+  text-align: center;
+  margin-top: 35vh;
+}
+
+.text {
+  font-size: 5rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+.count {
+  font-size: 9rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.btns {
+  font-size: 1.7rem;
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 0.7rem;
+  box-shadow: none;
+}
