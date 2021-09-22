@@ -13,9 +13,11 @@ const increase = document.querySelector('.increase');
 const count = document.querySelector('.count');
 
 
+// Global variables
+let counter = count.textContent;
+
 // Decrease button
 const decreaseCount = () => {
-    let counter = count.textContent;
     counter--;
     count.textContent = counter;
 }
@@ -27,7 +29,6 @@ const resetCount = () => {
 
 // increase button
 const increaseCount = () => {
-    let counter = count.textContent;
     counter++;
     count.textContent = counter;
 }
